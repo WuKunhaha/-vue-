@@ -1,0 +1,759 @@
+[ 2018-11-10T20:30:31+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010951s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0155s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-11-10T20:30:39+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' AND `password` = '111' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T20:31:03+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' AND `password` = '111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T20:31:35+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T20:31:36+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T20:43:40+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('吴堃','99') [ RunTime:0.0932s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T20:44:17+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0238s ]
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+
+[ 2018-11-10T20:44:19+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0147s ]
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+
+[ 2018-11-10T20:44:20+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+
+[ 2018-11-10T20:44:22+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+ERR: 1267:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+ [ SQL语句 ] : SELECT * FROM `user` WHERE `username` = '吴堃' 
+
+[ 2018-11-10T20:44:46+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('99','888') [ RunTime:0.0764s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T20:44:47+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('99','888') [ RunTime:0.0437s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T20:46:35+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('99','888') [ RunTime:0.0531s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T20:51:12+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' AND `password` = '99' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-10T20:51:17+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wukun'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'wukun' AND `password` = '111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T20:52:50+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `user` WHERE `username` = '99'  [ RunTime:0.0075s ]
+SQL: SELECT * FROM `user` WHERE `username` = '99'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '99' LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '99' AND `password` = '99' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T20:53:26+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `user` WHERE `username` = '99'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = '99'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '99' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '99' AND `password` = '99' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T21:15:21+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0164s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('9','9') [ RunTime:0.0480s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T21:17:31+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: INSERT INTO `user` (`username`,`password`,`company`) VALUES ('7','7','7') [ RunTime:0.0895s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T21:22:46+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: INSERT INTO `user` (`username`,`password`,`company`,`tel`,`email`) VALUES ('','','方','','') [ RunTime:0.1713s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T22:02:50+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T22:02:50+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T22:03:05+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 24 行.
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-11-10T22:04:20+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: INSERT INTO `user` (`username`,`password`,`company`,`tel`,`email`) VALUES ('吴堃','123','台州学院','123456','987') [ RunTime:0.0505s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T22:04:56+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `user` WHERE `username` = '吴堃'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = '吴堃'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '吴堃' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '吴堃' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T22:34:05+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T22:34:05+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T22:47:14+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T22:47:28+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T22:47:28+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+
+[ 2018-11-10T22:47:40+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T22:47:40+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T22:49:18+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T22:49:18+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T23:01:00+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T23:01:50+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T23:01:50+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T23:02:12+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0911s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T23:02:12+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
+[ 2018-11-10T23:03:21+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T23:03:21+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+
+[ 2018-11-10T23:03:35+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user` WHERE `username` = '吴堃'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = '吴堃'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '吴堃' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '吴堃' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T23:05:34+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: INSERT INTO `user` (`username`,`password`,`company`,`tel`,`email`) VALUES ('小仙女','xashxg','963','14785236998','xgsahg@qq.com') [ RunTime:0.0528s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T23:07:57+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: INSERT INTO `user` (`username`,`password`,`company`,`tel`,`email`) VALUES ('3','3','3','3','3') [ RunTime:0.0594s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T23:12:32+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: INSERT INTO `user` (`username`,`password`,`company`,`tel`,`email`) VALUES ('3','3','3','3','3') [ RunTime:0.0355s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 63 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 64 行.
+
+[ 2018-11-10T23:14:57+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: INSERT INTO `user` (`username`,`password`,`company`,`tel`,`email`) VALUES ('3','3','3','3','3') [ RunTime:0.0474s ]
+
+[ 2018-11-10T23:16:12+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user` WHERE `username` = '3'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = '3'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '3' AND `password` = '3' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T23:22:19+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant code - assumed 'code' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant msg - assumed 'msg' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 43 行.
+NOTIC: [2] Use of undefined constant uid - assumed 'uid' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 44 行.
+NOTIC: [2] Use of undefined constant uname - assumed 'uname' (this will throw an Error in a future version of PHP) D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 45 行.
+
+[ 2018-11-10T23:22:19+08:00 ] ::1 /waijiedemo/waijie/index.php/Home/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+NOTIC: [2] include_once(Conf/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+NOTIC: [2] include_once(): Failed opening 'Conf/config.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\waijiedemo\waijie\Application\Home\Controller\UserController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+
